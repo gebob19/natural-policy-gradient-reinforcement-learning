@@ -1,0 +1,1 @@
+bash scripts/speed/run.sh critic visualize/json/best_critic_runs.json

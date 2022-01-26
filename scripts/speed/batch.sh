@@ -1,0 +1,1 @@
+bash scripts/speed/run.sh batch visualize/json/best_batch_hparams.json

@@ -1,0 +1,1 @@
+bash scripts/speed/run.sh baseline visualize/json/hparams.json

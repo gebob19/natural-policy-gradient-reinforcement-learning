@@ -1,0 +1,67 @@
+{
+    "diagonal": {
+        "damping": 0.01,
+        "linesearch": 0.0,
+        "lr_max": 0.01,
+        "num_envs": 25,
+        "optim_name": "diagonal",
+        "reward": 2106.909481448073,
+        "value_damping": 0.1,
+        "value_linesearch": false,
+        "value_lr": 0.001,
+        "value_lr_max": 0.01,
+        "value_update": "kfac"
+    },
+    "ekfac": {
+        "damping": 0.01,
+        "linesearch": 1.0,
+        "lr_max": 0.0,
+        "num_envs": 15,
+        "optim_name": "ekfac",
+        "reward": 3794.609365618523,
+        "value_damping": 0.01,
+        "value_linesearch": false,
+        "value_lr": 0.001,
+        "value_lr_max": 0.01,
+        "value_update": "hessianfree"
+    },
+    "hessianfree": {
+        "damping": 0.1,
+        "linesearch": 1.0,
+        "lr_max": 0.0,
+        "num_envs": 10,
+        "optim_name": "hessianfree",
+        "reward": 2720.64404236242,
+        "value_damping": 0.1,
+        "value_linesearch": true,
+        "value_lr": 0.001,
+        "value_lr_max": 0.0,
+        "value_update": "ekfac"
+    },
+    "kfac": {
+        "damping": 0.01,
+        "linesearch": 1.0,
+        "lr_max": 0.0,
+        "num_envs": 15,
+        "optim_name": "kfac",
+        "reward": 2811.9757056232575,
+        "value_damping": 0.1,
+        "value_linesearch": false,
+        "value_lr": 0.001,
+        "value_lr_max": 0.1,
+        "value_update": "kfac"
+    },
+    "tengradv2": {
+        "damping": 0.1,
+        "linesearch": 1.0,
+        "lr_max": 0.0,
+        "num_envs": 4,
+        "optim_name": "tengradv2",
+        "reward": 3506.0134714540845,
+        "value_damping": 0.1,
+        "value_linesearch": true,
+        "value_lr": 0.001,
+        "value_lr_max": 0.0,
+        "value_update": "hessianfree"
+    }
+}

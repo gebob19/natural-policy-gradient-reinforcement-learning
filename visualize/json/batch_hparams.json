@@ -1,0 +1,42 @@
+{
+    "diagonal": {
+        "damping": 0.01,
+        "linesearch": 0.0,
+        "lr_max": 0.01,
+        "optim_name": "diagonal",
+        "reward": 527.3186305422439,
+        "value_lr": 0.001
+    },
+    "ekfac": {
+        "damping": 0.01,
+        "linesearch": 1.0,
+        "lr_max": 0.0,
+        "optim_name": "ekfac",
+        "reward": 1384.0226367420241,
+        "value_lr": 0.001
+    },
+    "hessianfree": {
+        "damping": 0.1,
+        "linesearch": 1.0,
+        "lr_max": 0.0,
+        "optim_name": "hessianfree",
+        "reward": 333.31605165807036,
+        "value_lr": 0.001
+    },
+    "kfac": {
+        "damping": 0.01,
+        "linesearch": 1.0,
+        "lr_max": 0.0,
+        "optim_name": "kfac",
+        "reward": 1318.1887496294705,
+        "value_lr": 0.001
+    },
+    "tengradv2": {
+        "damping": 0.1,
+        "linesearch": 1.0,
+        "lr_max": 0.0,
+        "optim_name": "tengradv2",
+        "reward": 787.8685825061976,
+        "value_lr": 0.001
+    }
+}
