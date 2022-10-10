@@ -1,4 +1,4 @@
-# Bag of Tricks for Natural Policy Gradient Reinforcement Learning [[ArXiv]](https://arxiv.org/abs/2201.09104)
+# Understanding the Effects of Second-Order Approximations in Natural Policy Gradient Reinforcement Learning [[ArXiv]](https://arxiv.org/abs/2201.09104)
 
 ## Setup 
 
